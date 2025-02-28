@@ -1,0 +1,98 @@
+.edit-todo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #b7dee73b;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.edit-todo li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.edit-todo li:hover {
+  border-color: #0077cc;
+  box-shadow: 0 0 10px rgba(0, 119, 204, 0.2);
+}
+
+.edit-todo li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.edit-todo-title {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0077cc;
+  text-align: center;
+}
+.edit-todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  flex-direction: column;
+  gap: 10px;
+}
+.edit-todo-button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #408099;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.edit-todo input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #408099;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.edit-todo input[type="text"]:focus {
+  outline: none;
+  border-color: #0077cc;
+  box-shadow: 0 0 10px rgba(0, 119, 204, 0.2);
+}
+.edit-todo button {
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.edit-todo button:hover {
+  background-color: #005fa3;
+}
+.edit-todo button:active {
+  background-color: #004c7f;
+}
